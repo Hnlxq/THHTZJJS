@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/light_gray">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img_user_head_portrait"
+            android:background="@mipmap/ic_launcher"
+            android:layout_alignTop="@+id/txt_user_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            style="@style/user_info_txt"
+            android:text="用户名"
+            android:id="@+id/txt_user_name"
+            android:textColor="@color/text_tab_normal"
+            android:textSize="@dimen/twenty"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_user_head_portrait" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="所属部门"
+            android:id="@+id/txt_user_department"
+            android:textColor="@color/text_heavy_gray"
+            android:textSize="@dimen/eighteen"
+            android:layout_alignBottom="@+id/img_user_head_portrait"
+            android:layout_alignRight="@+id/txt_user_name"
+            android:layout_alignEnd="@+id/txt_user_name" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/text_red"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/activity_horizontal_margin">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_user_centure"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/text_red"
+        android:paddingLeft="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/eighteen"
+            android:background="@null"
+            android:id="@+id/btn_user_set"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</LinearLayout>

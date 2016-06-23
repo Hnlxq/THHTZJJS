@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--默认蓝色字体颜色-->
+    <color name="text_tab_selected">#046dac</color>
+
+    <!--默认黑色字体颜色-->
+    <color name="text_tab_normal">#000000</color>
+
+    <!--灰色字体颜色-->
+    <color name="text_gray">#8a8b8d</color>
+
+    <!--深灰色字体颜色-->
+    <color name="text_heavy_gray">#888888</color>
+
+    <!--红色字体颜色-->
+    <color name="text_red">#e52115</color>
+
+    <!--淡蓝色背景-->
+    <color name="bg_gray_blue">#1f73b4</color>
+
+    <!--白色字体颜色-->
+    <color name="text_white">#ffffff</color>
+
+    <!--浅灰色字体颜色-->
+    <color name="light_gray">#dddddd</color>
+</resources>

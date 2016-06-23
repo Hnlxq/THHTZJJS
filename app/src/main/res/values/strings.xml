@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">资金结算</string>
+    <string name="action_settings">Settings</string>
+
+    <!--选项卡文字-->
+    <string name="tab_notice">审批</string>
+    <string name="tab_order">申请</string>
+    <string name="tab_info">查询</string>
+    <string name="tab_single">我</string>
+
+</resources>
